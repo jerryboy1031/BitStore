@@ -1,0 +1,15 @@
+# Ignore system files (like Mac's .DS_Store or Windows Thumbs.db)
+.DS_Store 
+Thumbs.db
+
+# Ignore IDE settings (VS Code)
+.vscode/
+
+# Binaries and build files
+build/
+BitStore
+bitstore-cli
+
+# Data files
+*.aof
+*.db
