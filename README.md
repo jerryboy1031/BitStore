@@ -20,12 +20,12 @@
 
 ## ✨ Core Features
 
-* ⚡ **Blazing Fast In-Memory Store:** Achieves $O(1)$ read/write lookups using standard C++ hash maps.
-* 🕰️ **Time-To-Live (TTL) & Garbage Collection:** Assign expiration times to keys. A dedicated background `std::thread` safely sweeps and reclaims memory without blocking client requests.
-* 💾 **Data Durability (AOF):** Uses an Append-Only File (AOF) log to persist data to disk instantly. Includes a `COMPACT` engine to safely shrink the log file in the background.
-* 📥 **Task Queues:** Native support for double-ended queues (`std::deque`), perfect for producer/consumer workloads.
+* **Blazing Fast In-Memory Store:** Achieves $O(1)$ read/write lookups using standard C++ hash maps.
+* **Time-To-Live (TTL) & Garbage Collection:** Assign expiration times to keys. A dedicated background `std::thread` safely sweeps and reclaims memory without blocking client requests.
+* **Data Durability (AOF):** Uses an Append-Only File (AOF) log to persist data to disk instantly. Includes a `COMPACT` engine to safely shrink the log file in the background.
+* **Task Queues:** Native support for double-ended queues (`std::deque`), perfect for producer/consumer workloads.
 * 📢 **Real-Time Pub/Sub:** A 1-to-many message broadcasting system with robust socket management and OS-level `SIGPIPE` armoring to prevent crashes from dropped clients.
-* 💻 **Custom REPL Client:** Includes `bitstore-cli`, a dedicated, interactive command-line interface for seamless database interaction.
+* **Custom REPL Client:** Includes `bitstore-cli`, a dedicated, interactive command-line interface for seamless database interaction.
 
 ---
 
